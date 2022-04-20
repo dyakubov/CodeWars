@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37e7ebac-3603-43e6-bb88-79579831f219" name="Changes" comment="HelloWorld test done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/foundation/GrowthOfAPopulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/foundation/GrowthOfAPopulationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/foundation/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/foundation/HelloWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/foundation/HelloWorldTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/foundation/HelloWorldTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="37e7ebac-3603-43e6-bb88-79579831f219" name="Changes" comment="GrowthOfAPopulation test done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650261651699</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="GrowthOfAPopulation test done">
+      <created>1650436669490</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650436669490</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,7 +220,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HelloWorld test done" />
-    <option name="LAST_COMMIT_MESSAGE" value="HelloWorld test done" />
+    <MESSAGE value="GrowthOfAPopulation test done" />
+    <option name="LAST_COMMIT_MESSAGE" value="GrowthOfAPopulation test done" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CodeWars$ReverseWords.ic" NAME="ReverseWords Coverage Results" MODIFIED="1650262503654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
