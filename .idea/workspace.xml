@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37e7ebac-3603-43e6-bb88-79579831f219" name="Changes" comment="Invert values complete">
-      <change afterPath="$PROJECT_DIR$/src/main/java/foundation/ReversedStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/foundation/ReversedStringsTest.java" afterDir="false" />
+    <list default="true" id="37e7ebac-3603-43e6-bb88-79579831f219" name="Changes" comment="Reversed Strings completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/foundation/StringEndsWith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/foundation/StringEndsWithTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +63,7 @@
       <recent name="foundation" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReversedStringsTest.solution">
+  <component name="RunManager" selected="JUnit.StringEndsWithTest.solution">
     <configuration name="CalculateBMITest.bmi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -112,22 +112,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWordsTest.reverseWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="foundation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="foundation" />
-      <option name="MAIN_CLASS_NAME" value="foundation.ReverseWordsTest" />
-      <option name="METHOD_NAME" value="reverseWords" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReversedStringsTest.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
@@ -144,20 +128,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringEndsWithTest.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="foundation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="foundation" />
+      <option name="MAIN_CLASS_NAME" value="foundation.StringEndsWithTest" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.CalculateBMITest.bmi" />
       <item itemvalue="JUnit.InvertValuesTest.invert" />
       <item itemvalue="JUnit.ReversedStringsTest.solution" />
+      <item itemvalue="JUnit.StringEndsWithTest.solution" />
       <item itemvalue="JUnit.GrowthOfAPopulationTest.test" />
-      <item itemvalue="JUnit.ReverseWordsTest.reverseWords" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringEndsWithTest.solution" />
         <item itemvalue="JUnit.ReversedStringsTest.solution" />
         <item itemvalue="JUnit.InvertValuesTest.invert" />
         <item itemvalue="JUnit.CalculateBMITest.bmi" />
         <item itemvalue="JUnit.GrowthOfAPopulationTest.test" />
-        <item itemvalue="JUnit.ReverseWordsTest.reverseWords" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650447611529</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Reversed Strings completed">
+      <created>1650449568482</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650449568483</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +260,8 @@
     <MESSAGE value="gitignore update" />
     <MESSAGE value="CalculateBMI complete" />
     <MESSAGE value="Invert values complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Invert values complete" />
+    <MESSAGE value="Reversed Strings completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reversed Strings completed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CodeWars$ReverseWords.ic" NAME="ReverseWords Coverage Results" MODIFIED="1650262503654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
