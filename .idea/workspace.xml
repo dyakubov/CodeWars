@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37e7ebac-3603-43e6-bb88-79579831f219" name="Changes" comment="Remove First And Last Character completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/foundation/CountingSheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/foundation/CountingSheepTest.java" afterDir="false" />
+    <list default="true" id="37e7ebac-3603-43e6-bb88-79579831f219" name="Changes" comment="Counting Sheep completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/foundation/ValidatePIN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/foundation/ValidatePINTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +24,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="CountingSheepTest.countSheep" />
-    </enabled-run-configurations>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -68,7 +63,7 @@
       <recent name="foundation" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CountingSheepTest.countSheep">
+  <component name="RunManager" selected="JUnit.ValidatePINTest.validPins">
     <configuration name="BuildTower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="foundation.BuildTower" />
       <module name="CodeWars" />
@@ -78,6 +73,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvertNumberToReversedArrayOfDigitsTest.digitize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeWars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="foundation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="foundation" />
+      <option name="MAIN_CLASS_NAME" value="foundation.ConvertNumberToReversedArrayOfDigitsTest" />
+      <option name="METHOD_NAME" value="digitize" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReversedStringsTest.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidatePINTest.validPins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
@@ -123,24 +134,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="foundation" />
-      <option name="MAIN_CLASS_NAME" value="foundation.ReversedStringsTest" />
-      <option name="METHOD_NAME" value="solution" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringEndsWithTest.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeWars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="foundation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="foundation" />
-      <option name="MAIN_CLASS_NAME" value="foundation.StringEndsWithTest" />
-      <option name="METHOD_NAME" value="solution" />
+      <option name="MAIN_CLASS_NAME" value="foundation.ValidatePINTest" />
+      <option name="METHOD_NAME" value="validPins" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,18 +143,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.foundation.BuildTower" />
+      <item itemvalue="JUnit.ConvertNumberToReversedArrayOfDigitsTest.digitize" />
       <item itemvalue="JUnit.CountingSheepTest.countSheep" />
       <item itemvalue="JUnit.RemoveFirstAndLastCharacterTest.remove" />
-      <item itemvalue="JUnit.ReversedStringsTest.solution" />
-      <item itemvalue="JUnit.StringEndsWithTest.solution" />
+      <item itemvalue="JUnit.ValidatePINTest.validPins" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidatePINTest.validPins" />
+        <item itemvalue="JUnit.ConvertNumberToReversedArrayOfDigitsTest.digitize" />
         <item itemvalue="JUnit.CountingSheepTest.countSheep" />
         <item itemvalue="Application.foundation.BuildTower" />
         <item itemvalue="JUnit.RemoveFirstAndLastCharacterTest.remove" />
-        <item itemvalue="JUnit.StringEndsWithTest.solution" />
-        <item itemvalue="JUnit.ReversedStringsTest.solution" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650466907287</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Counting Sheep completed">
+      <created>1650529033162</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650529033162</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +281,8 @@
     <MESSAGE value="Reversed Strings completed" />
     <MESSAGE value="String Ends With completed" />
     <MESSAGE value="Remove First And Last Character completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove First And Last Character completed" />
+    <MESSAGE value="Counting Sheep completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Counting Sheep completed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CodeWars$ReverseWords.ic" NAME="ReverseWords Coverage Results" MODIFIED="1650262503654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
